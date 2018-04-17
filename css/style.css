@@ -1,0 +1,56 @@
+/*Start Global Style*/
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+/*End Global Style*/
+
+/*Start Write Box Post Styles*/
+
+h3 {
+    margin-bottom: 40px;
+}
+.input-field label {
+	font-size: 20px;
+}
+textarea.materialize-textarea:focus {
+    border-bottom: 1px solid #0d47a1 !important;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #0d47a1;
+}
+
+.fa-upload:before {
+    font-size: 15px;
+}
+/*End Write Box Post Styles*/
+
+/*Start Post Style*/
+#post-card h3{
+	margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#post-card p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#post-card .card-action #post-time {
+	font-weight: 100;
+}
+#post-card .card-action .icon {
+    color: #bbb;
+    cursor: pointer;
+}
+#post-card .card-action .icon:hover {
+    color: #777;
+}
+#post-card .card-action small i{
+    margin-right: 3px;
+    font-size: 12px;
+    line-height: 23px;
+}
+/*End Post Style*/
